@@ -1,0 +1,23 @@
+name: 申请加入
+about: 申请加入 @sjzezsyxx 组织。
+title: 申请加入
+labels: 申请
+assignees: @sjzezsyxx/admin
+body:
+  - type: markdown
+    attributes:
+      value: |
+        欢迎您申请加入在 GitHub 上的石家庄二中实验学校信竞团队！在发送申请之前，请完成下方的表单。
+  - type: checkboxes
+    attributes:
+      label: 确认加入条件
+      description: 请根据你的实际情况在下方的选项中打勾。
+      options:
+        - label: 我目前正于 **石家庄二中实验学校** 就读。
+        - label: 我已经成为了石家庄二中实验学校信竟团队的 **正式成员**。
+        - label: 我已经联系过了 [校内负责管理团队的学长](https://github.com/orgs/sjzezsyxx/teams/admin/members) 确认身份。
+  - type: textarea
+    attributes:
+      label: 附加说明
+      description: （选填）一些其他的说明信息。
+      value: ''
