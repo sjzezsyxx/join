@@ -20,4 +20,3 @@ body:
     attributes:
       label: 附加说明
       description: （选填）一些其他的说明信息。
-      value: ''
